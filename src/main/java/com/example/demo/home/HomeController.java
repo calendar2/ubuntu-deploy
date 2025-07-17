@@ -9,7 +9,7 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://192.168.20.162:3000")
+@CrossOrigin(origins = "http://192.168.20.162:*")
 public class HomeController {
 	private final HomeService homeService;
 
